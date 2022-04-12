@@ -1,0 +1,138 @@
+
+/*variables*/
+:root {
+  --cyanP: #1D70B8;
+}
+
+/*footer stuff*/
+footer a:link{
+  color: blue;
+}
+
+footer a:visited{
+  color: purple;
+}
+
+footer{
+  margin-left: 465px;
+  width:50%;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  height:auto;
+  padding: 0%;
+  color: black;
+}
+
+/*nav bar*/
+nav{
+  background-color: black;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+
+/*body*/
+body{
+  background-color: #FFFFFF;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+/*Lists*/
+li {
+    display: inline-block;
+}
+
+
+li a{
+  padding: 14px 16px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+}
+
+
+li a:hover {
+   background-color: white;
+   color: black;
+}
+
+/*paragraphs*/
+p.para{
+  margin-left: 220px;
+  margin-right: 33%;
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+.home p{
+  margin-right: 5%;
+  text-indent: 50px;
+}
+
+/*side nav bars*/
+.sidenav{
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background-color: #F3F2F1;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+/*side nav lists*/
+.sidenavli a{
+  padding: 14px 16px;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+}
+
+.sidenavli a:hover{
+  background-color: #16568D;
+  color: white;
+}
+
+/*text formats*/
+.home{
+  margin-left:  465px;
+  width:50%;
+  height:auto;
+  padding: 0%;
+  margin-top: 40px;
+  color: black;
+  scroll-margin-top: 80px;
+  font-size: 18px;
+}
+
+/*blue text formats*/
+.part2{
+  background-color: #16568D;
+  position:static;
+  margin-left: 243px;
+  width:87.6%;
+  height:auto;
+  padding-bottom: 1%;
+  color: white;
+  scroll-margin-top: 80px;
+  font-size: 18px;
+}
+
+/*headers*/
+.part2 h1{
+   margin-left: 219px;
+}
+
+/*logo styling*/
+.logo{
+  margin-top: -5px;
+  margin-left: 5px;
+  float: left;
+  margin-right: -690px;
+}
